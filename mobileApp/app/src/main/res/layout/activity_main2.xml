@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#006699"
+    tools:context="ashcorp.myapplication.Main2Activity">
+
+
+    <include layout="@layout/content_main2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button50"
+        android:text="Logout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Note Set"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button50"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/button2">
+
+        <Button
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/noteset0"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <Button
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/noteset1"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button50"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/button2"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/noteset2"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <Button
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/noteset3"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button50"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/button2"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/noteset4"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button50"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/button2"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="288dp"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:id="@+id/noteset5"
+                    android:layout_gravity="center_horizontal"
+                    android:visibility="gone" />
+
+                <Button
+                    android:layout_width="288dp"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:id="@+id/noteset6"
+                    android:layout_gravity="center_horizontal"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/noteset7"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

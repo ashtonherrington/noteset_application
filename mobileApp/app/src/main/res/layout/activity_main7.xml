@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#006699"
+    tools:context="ashcorp.myapplication.Main7Activity">
+
+    <include layout="@layout/content_main7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Edit note"
+        android:id="@+id/textView114"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Question"
+        android:id="@+id/textView115"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/textView114"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText115"
+        android:width="320dp"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/textView115"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Answer"
+        android:id="@+id/textView116"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:scrollHorizontally="false"
+        android:ems="10"
+        android:id="@+id/editText116"
+        android:width="320dp"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/textView116"
+        android:layout_alignLeft="@+id/editText115"
+        android:layout_alignStart="@+id/editText115" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/button15"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView114"
+        android:layout_alignStart="@+id/textView114"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>

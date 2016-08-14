@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#006699"
+    tools:context="ashcorp.myapplication.Main5Activity">
+
+    <include layout="@layout/content_main5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Add Note"
+        android:id="@+id/textView14"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Question"
+        android:id="@+id/textView15"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText15"
+        android:width="320dp"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Answer"
+        android:id="@+id/textView16"
+        android:layout_marginTop="190dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:scrollHorizontally="false"
+        android:ems="10"
+        android:id="@+id/editText16"
+        android:width="320dp"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/textView16"
+        android:layout_alignLeft="@+id/editText15"
+        android:layout_alignStart="@+id/editText15" />
+
+    <include
+        layout="@layout/content_main5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:id="@+id/include" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Next"
+        android:id="@+id/button4"
+        android:layout_alignBottom="@+id/include"
+        android:layout_toLeftOf="@+id/textView16"
+        android:layout_toStartOf="@+id/textView16" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/button5"
+        android:layout_alignBottom="@+id/include"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16" />
+
+</RelativeLayout>
